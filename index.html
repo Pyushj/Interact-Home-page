@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1817ba32c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/newlogo-removebg-preview.png" alt="SocialBook" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt="Notifications"></li>
+                <li><img src="images/inbox.png" alt="inboxs"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+
+                <img src="images/search.png" alt="SearchBox">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/myProfile.jpg" alt="">
+            </div>
+
+        </div>
+         <!---------settings menu------>
+        <div class="settings-menu">
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/myProfile.jpg" alt="">
+                    <div>
+                        <p>Pyush Jha</p>
+                        <a href="">Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Feedback</p>
+                        <a href="">Help us improve the design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width=10px> </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width=10px> </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" alt="" class="settings-icon">
+                    <a href="#">Accessibility and Display<img src="images/arrow.png" width=10px> </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout<img src="images/arrow.png" width=10px> </a>
+                </div>
+            </div>
+            
+
+        </div>
+    </nav>
+
+
+    <div class="container">
+       <!---------left-sidebar------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest News </a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group </a>
+                <a href="#"><img src="images/marketplace.png" alt="">Market Place</a>
+                <a href="#"><img src="images/news.png" alt="">Latest News </a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="https://www.linkedin.com/in/pyush-jha"><img src="images/linkedin.png" alt="">LinkedIn</a>
+                <a href="https://github.com/Pyushj"><img src="images/GitHub.png" alt="">GitHub</a>
+                <a href="https://auth.geeksforgeeks.org/user/pyushj078/practice/"><img src="images/gfg.png" alt="">GeeksForGeeks</a>
+                <a href="https://stackoverflow.com/company"><img src="images/stackoverflow.png" alt="">stack overflow</a>
+
+            </div>
+        </div>
+
+         <!---------main-content------>
+        <div class="main-content">
+            
+            <!--Stories-->
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Add Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/my-member-1.jpeg" alt="">
+                    <p>Shashank</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/mymember-2.JPG" alt="">
+                    <p>Naman</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Sara</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Aman</p>
+                </div>
+
+            </div>
+
+            <div class="write-post-container">
+                <!--User Profile-->
+                <div class="user-profile">
+                    <img src="images/myProfile.jpg" alt="">
+                    <div>
+                        <p>Pyush Jha</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <!---create post container-->
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind Pyush?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Go Live</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <!--News Feed  posts-->
+            <!--Post1-->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/myProfile.jpg" alt="">
+                        <div>
+                            <p>Pyush Jha</p>
+                            <span>June 24 2021, 11:30 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">After being shut for over 16 weeks 
+                ,<span>Victoria Memorial Hall</span> opens its gates for the visitors.
+                <a href="https://victoriamemorial-cal.org/home/content/en">#VictoriaMemorial</a>
+                <a href="#">#CalcuttaCacophony</a>
+                </p>
+                <img src="images/myfeed-image-1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/myProfile.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!---Second Post-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Jadavpur.png" alt="">
+                        <div>
+                            <p>Jadavpur University</p>
+                            <span>June 12 2021, 02:30 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">
+                 Kolkats's biggest Tech Fest <span>Srijan</span> is back again, this time bigger than ever.
+                    Do not forget to register on time and be a part of the legacy.
+                <a href="https://www.facebook.com/jusrijan/">#Srijan2021</a>
+                <a href="http://www.jaduniv.edu.in/">#JadavpurUniversity</a>
+                </p>
+                <img src="images/myfeed-image-2.JPG" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">3000</div>
+                        <div><img src="images/comments.png">145</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/myProfile.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!--Third Post-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/myProfile.jpg" alt="">
+                        <div>
+                            <p>Pyush Jha</p>
+                            <span>May 10 2021, 06:30 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">
+                 It's been exactly three years since I wore my school uniform for the last time.<span></span> 
+                 Feels like it was yesterday.Thank you
+                <a href="http://www.staugustineday.com/">St. Augustine's Day School</a>
+                for such cherishable memories.
+                </p>
+                <img src="images/myfeed-image-3.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">586</div>
+                        <div><img src="images/comments.png">235</div>
+                        <div><img src="images/share.png">0</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/myProfile.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        
+
+            <button type="button" class="load-more">Load More</button>
+
+
+
+
+
+
+        </div>
+
+         <!---------right-sidebar------>
+        <div class="right-sidebar">
+            
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>15</h3>
+                    <span>August</span>
+                </div>
+
+                <div class="right-event">
+                    <h4>Mass Vaccination Drive</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> NRS Medical College & Hospital </p>
+                    <a href="https://www.google.com/maps/search/nrs+hospital/@22.5643259,88.3673292,17z/data=!3m1!4b1">More Info</a>
+
+                </div>
+
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>30</h3>
+                    <span>August</span>
+                </div>
+
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willis Tech Complex </p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-adds">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/my-member-1.jpeg" alt="">
+                </div>
+                <p>Shashank Mishra</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/mymember-2.JPG" alt="">
+                </div>
+                <p>Naman Daga</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Sara Green</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt="">
+                </div>
+                <p>Aman Sahu</p>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+   <div class="footer">
+       <p>@Copyright 2021 interact</p>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
